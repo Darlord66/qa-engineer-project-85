@@ -18,7 +18,7 @@
   requirement: |
     Пользователь должен иметь возможность авторизации/регистрации на сайте
   prerequisites:
-    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации
   test-data: |
     Логин = Wakeup337 Пароль = goodpassword Email = jaylode42@yandex.ru
   steps:
@@ -34,7 +34,7 @@
   requirement: |
     Пользователь должен получить сообщение об ошибке при вводе невалидных данных при регистрации
   prerequisites:
-    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации
   test-data: |
     Логин = brovada Пароль = goodpassword Email = ivan@ivan.ru
   steps:
@@ -50,7 +50,7 @@
   requirement: |
     Пользователь должен получить сообщение об ошибке при вводе невалидных данных при регистрации
   prerequisites:
-    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации
   test-data: |
     Логин = вгрысгтлагрв Пароль = хорошийпароль email = jaylode42@yandex.ru
   steps:
@@ -66,7 +66,7 @@
   requirement: |
     При верном вводе логине и пароля пользователь должен войти в систему
   prerequisites: |
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта страница логина
   test-data: |
     Email = jaylode42@yandex.ru Пароль = goodpassword
   steps:
@@ -81,7 +81,7 @@
   requirement: |
     При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта страница логина
   test-data: |
     Email = jaylode7382372@yandex.ru Пароль = goodpass
   steps:
@@ -96,7 +96,7 @@
   requirement: |
     Пользователь должен иметь возможность авторизации через github/discord
   prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта страница логина
     Пользователь имеет аккаунт на гитхабе
   test-data: |
     Empty
@@ -111,7 +111,7 @@
   requirement: |
     Пользователь должен иметь возможность авторизации через github/discord
   prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта страница логина
     Пользователь имеет аккаунт в дискорде
   test-data: |
     Empty
